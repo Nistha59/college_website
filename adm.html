@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+<title> NIT College</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript">
+function register(){
+var x=new Array();
+x[0]=document.getElementById("fname");
+x[1]=document.getElementById("lname");
+x[2]=document.getElementById("faname");
+x[3]=document.getElementById("mname");
+x[4]=document.getElementById("dob");
+x[5]=document.getElementById("email");
+x[6]=document.getElementById("tenth");
+x[7]=document.getElementById("twel");
+x[8]=document.getElementById("mains");
+x[9]=document.getElementById("advance");
+alert("Form is submitted successfully");
+</script>
+</head>
+<body>
+<div class="main">
+<ul>
+<li><a href="home.html"><b>Home</b></a></li>
+<li><a href="acad.html"><b>Academics</b></a></li>
+<li><a href="dep.html"><b>Departments</b></a></li>
+<li><a href="admin.html"><b>Administration</b></a></li>
+<li><a href="fee.html"><b>Services</b></a></li>
+<li class="active"><a href="adm.html"><b>Admissions</b></a></li>
+<li><a href="contact.html"><b>Contact Us</b></a></li>
+</ul>
+<img src="13.jpg" style="height:400px; width:1230px;">
+</div>
+<div class="head">
+<h2>Application Form</h2>
+<h3>Student Record</h3>
+<br><br></div>
+<form>
+<fieldset style="width:60%; margin-left:200px;">
+<legend style="font-size:22px"><b>Personal Information</b></legend><br>
+<table style="width:50%; margin-left:200px; font-size:18px; color:blue">
+<tr><td><b>First Name:</b></td><td><input type="text" name="fname" id="fname" style="height:40px; width:180px"></td></tr>
+<tr><td><b>Last Name:</b></td><td> <input type="text" name="lname" id="lname" style="height:40px; width:180px"></td></tr>
+<tr><td><b>Father's Name:</b></td><td> <input type="text" name="faname" id="faname" style="height:40px; width:180px"></td></tr>
+<tr><td><b>Mother's Name:</b></td><td> <input type="text" name="mname" id="mname" style="height:40px; width:180px"></td></tr>
+<tr><td><b>Gender:</b></td><td><b style="color:black">Male</b> <input type="radio" name="sex" id="sex">
+<br><b style="color:black">Female</b> <input type="radio" name="sex" id="sex"></td></tr>
+<tr><td><b>Date Of Birth:</b></td><td> <input type="text" name="dob" id="dob" style="height:40px; width:180px"></td></tr>
+<tr><td><b>Email:</b></td><td> <input type="email" name="email" id="email" style="height:40px; width:180px"></td></tr>
+</table>
+</fieldset>
+<br><br>
+<fieldset style="width:60%; margin-left:200px;">
+<legend style="font-size:22px"><b>Qualification</b></legend><br>
+<table style="width:50%; margin-left:200px; font-size:18px; color:blue">
+<tr><td><b>10th%:</b></td><td><input type="number" name="tenth" id="tenth" style="height:40px; width:180px"></td></tr>
+<tr><td><b>12th%:</b></td><td><input type="number" name="twel" id="twel" style="height:40px; width:180px"></td></tr>
+<tr><td><b>Jee Main Score:</b></td><td><input type="number" name="mains" id="mains" style="height:40px; width:180px"></td></tr>
+<tr><td><b>Jee Advance Score:</b></td><td><input type="number" name="advance" id="advance" style="height:40px; width:180px"></td></tr>
+</table>
+</fieldset>
+<br><br>
+<b><input type="button" value="SUBMIT" onclick="register()" style="height:40px; width:130px; font-size:25px;margin-left:500px;"></b>
+</form>
+</body>
+</html>
